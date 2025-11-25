@@ -1,44 +1,89 @@
 # Projeto ToDo Acessível
 
 ## Descrição
-Este projeto consiste em um aplicativo de lista de tarefas (**ToDo**) com foco em **usabilidade e acessibilidade**, desenvolvido como atividade de extensão da disciplina de Engenharia de Software.
-
-O objetivo é permitir que qualquer usuário, independentemente de suas habilidades sensoriais ou cognitivas, consiga adicionar, concluir, desmarcar e excluir tarefas de forma simples e eficiente.
+App de lista de tarefas (**ToDo**) com foco em **usabilidade e acessibilidade**, desenvolvido como atividade de extensão da disciplina de Engenharia de Software.
 
 ---
 
 ## Funcionalidades
-
-- **Adicionar tarefa:** Insere uma nova tarefa na lista.
-- **Concluir / Desmarcar:** Marca a tarefa como concluída ou desfaz a conclusão, riscando o texto.
-- **Mensagem temporária:** Exibe um aviso rápido "Tarefa concluída!" quando uma tarefa é marcada como feita.
-- **Excluir tarefa:** Remove a tarefa individualmente.
-- **Limpar tarefas:** Botões para remover todas as tarefas ou apenas as concluídas.
-- **Persistência de dados:** As tarefas são salvas no navegador usando `localStorage`.
+- Adicionar tarefa  
+- Concluir / Desmarcar tarefa  
+- Mensagem temporária ao concluir  
+- Excluir tarefa  
+- Limpar tarefas  
+- Persistência no navegador (localStorage)  
 
 ---
 
 ## Tecnologias Utilizadas
-
-- **HTML5** – estrutura do aplicativo.
-- **CSS3** – layout e estilo acessível.
-- **JavaScript** – funcionalidades e persistência de dados.
+- HTML5  
+- CSS3  
+- JavaScript  
 
 ---
 
 ## Acessibilidade
-
-O projeto inclui recursos de acessibilidade:
-
-- Labels claros para formulários.
-- Mensagens temporárias com `aria-live` para feedback ao usuário.
-- Botões legíveis e com contraste adequado.
-- Estrutura semântica de lista (`<ul>` e `<li>`).
+- Labels claros para formulários  
+- Mensagens com `aria-live`  
+- Botões legíveis e contraste adequado  
+- Estrutura semântica de lista (`<ul>` e `<li>`)  
 
 ---
 
-## Como Rodar o Projeto
-
-1. Clone ou baixe o repositório:
+## Como Rodar
+1. Clone ou baixe o repositório:  
    ```bash
    git clone https://github.com/seu-usuario/Projeto-ToDo-Acessivel.git
+Abra index.html no navegador
+
+Teste todas as funcionalidades
+
+Diagramas UML (em texto)
+Diagrama de Classe
+Classe: Tarefa
+Atributos:
+
+id: número único
+
+texto: descrição da tarefa
+
+feito: indica se está concluída
+
+Métodos:
+
+adicionar()
+
+concluir()
+
+desmarcar()
+
+excluir()
+
+Diagrama de Atividades
+Usuário adiciona tarefa → aparece na lista
+
+Usuário conclui → mensagem temporária aparece
+
+Usuário desmarca → volta ao estado normal
+
+Usuário exclui → tarefa desaparece
+
+Usuário limpa tarefas concluídas ou todas → lista atualizada
+
+Conclusão
+O projeto demonstra a aplicação de conhecimentos de Engenharia de Software com foco em acessibilidade e usabilidade.
+
+yaml
+Copiar código
+
+---
+
+# **3. Estrutura final do repositório**
+
+/Projeto-ToDo-Acessivel
+│
+├─ index.html
+├─ style.css
+├─ script.js
+├─ README.md # como acima
+└─ Projeto_ToDo_Acessivel.pdf # PDF com documentação completa
