@@ -35,10 +35,10 @@ O projeto permite aplicar o ciclo de vida completo de desenvolvimento de softwar
 Os diagramas abaixo representam a estrutura e o fluxo do aplicativo:  
 
 **Diagrama de Classes**  
-![Diagrama de Classes](images/UML 1.png)
+![Diagrama de Classes](images/UML%201.png)
 
 **Diagrama de Atividades**  
-![Diagrama de Classes](images/UML 2.png)
+![Diagrama de Classes](images/UML%202.png)
 
 ---
 
